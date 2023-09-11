@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>WhoofCare</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> WhoofCare
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#findinghomes" class="nav__link">Finding Homes</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">FAQs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+
+                        <button class="btn5">logout</button>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="./assets/New folder/image-removebg-preview (9).png" alt="" class="home__img">
+                    <!-- <video muted autoplay loop  src="./assets/video/pexels-gustavo-fring-6816885 (720p).mp4"  class="home__img"></video> -->
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                           Dogs, more <br> than just animals.
+                        </h1>
+                        <p class="home__description">
+                            Your dog's health, our expertise.
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Follow Us</span>
+
+                        <div class="home__social-links">
+                            <a href="" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <!-- <img src="assets/img/about.png" alt="" class="about__img"> -->
+                    <video muted autoplay loop  src="./assets/video/pexels-rodnae-productions-7515923 (1080p).mp4"  class="about__img"></video>
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Who we really are & <br> why choose us
+                        </h2>
+
+                        <p class="about__description">
+                            Our dog care facility is dedicated to providing exceptional care, safety, and personalized attention to dogs of all breeds and sizes. With our range of services, experienced staff, and top-notch facilities, we aim to create a positive and enjoyable experience for both dogs and their owners. Whether it's for a short stay, a day of play, or grooming and training needs, our facility is the ultimate destination for comprehensive dog care.
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We groom your dogs the best.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We give you guides to protect and care for your dogs.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                               Your dogs are safe with us.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                You can always count on us.
+                            </p>
+                        </div>
+
+                        <a href="#" class="button--link button--flex">
+                            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Steps to maintaining <br> healthy dogs. 
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Choose Good HealthCare For Your Dogs</h3>
+                            <p class="steps__card-description">
+                                We can assure you of good healthcare.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Book An Appointment</h3>
+                            <p class="steps__card-description">
+                               We look forward to taking care of your dogs.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Get Your Dogs Taken Care Of</h3>
+                            <p class="steps__card-description">
+                                We make sure your dogs are back to their best.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="findinghomes">
+                <h2 class="section__title-center">
+                     Finding Suitable<br> Homes
+                </h2>
+
+                <p class="product__description">
+                    Here are some selected plants from our showroom, all are in excellent 
+                    shape and has a long life span. Buy and enjoy best quality.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="./assets/New folder/image-removebg-preview (10).png" alt="" class="product__img">
+
+                        <h3 class="product__title">Golden Retriever</h3>
+                       
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="./assets/New folder/image-removebg-preview (11).png" alt="" class="product__img">
+
+                        <h3 class="product__title">Afghan Hound puppy</h3>
+                     
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="./assets/New folder/image-removebg-preview (12).png" alt="" class="product__img">
+
+                        <h3 class="product__title">AfGerman Shepherdt</h3>
+                       
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/New folder/image-removebg-preview (13).png" alt="" class="product__img">
+
+                        <h3 class="product__title">Siberian Husky</h3>
+                        
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/New folder/image-removebg-preview.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Lhasa Aspo</h3>
+                
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/New folder/image-removebg-preview (14).png" alt="" class="product__img">
+
+                        <h3 class="product__title">Australian Shepherd</h3>
+    
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Some common questions <br> were often asked
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    What breeds are good with children?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Golden Retriever: Similar to Labs, Golden Retrievers are known for their gentle and tolerant nature. They are highly intelligent and easily trainable, making them great companions for children.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How often should I bathe my dog?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Activity level: Dogs that spend a lot of time outdoors or engage in activities that make them dirty, such as swimming or rolling in the mud, may need more frequent bathing. In such cases, bathing every 2-4 weeks may be necessary.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How often should I take my dog to the veterinarian?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Puppies: When you first bring a new puppy home, they require a series of vaccinations to protect against common diseases. Typically, puppies receive a series of vaccinations every 3 to 4 weeks until they are around 16 weeks old. During this time, you should schedule regular visits with your veterinarian to ensure your puppy is growing properly and to address any health concerns.
+                          
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    What are the signs of a healthy dog?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Hydration: A healthy dog will be well-hydrated. The gums should be moist and pink, and if you press on the gums, the color should return quickly. Dehydration can be indicated by dry or pale gums.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How can I socialize my dog with other dogs and people?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Start with basic obedience training: Teach your dog basic commands like sit, stay, and come. This will establish a foundation for their training and make it easier to control their behavior during socialization.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How long can a dog be left alone?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Puppies: Puppies require more attention and care than adult dogs. They have limited bladder control and may need to relieve themselves frequently. A general rule of thumb is that a puppy can hold its bladder for about one hour per month of age. For example, a 3-month-old puppy should not be left alone for more than three hours at a time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== BOOK APPOINTMENT ====================-->
+            <section class="book section" id="book">
+                <h2 class="section__title">Book An Appointment</h2>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                       <div class="formm">
+        <form method="post">
+            <div class="con">
+            <input type="text" name="Name" placeholder="Full Name" required id="name" autocomplete="off" class="input1">
+            </div>
+            <div class="con">
+            <input type="text" name="Email" placeholder="Email" required autocomplete="off" id="email" class="input1">
+            </div>
+            <div class="con">
+            <input type="text" placeholder="suject" id="subject" autocomplete="off" class="input1">
+            </div>
+            <div class="con">
+            <input type="number" placeholder="Phone" id="number" autocomplete="off" class="input1">
+            </div>
+
+            <div class="con">
+            <input type="date" placeholder="Phone" id="date" autocomplete="off" class="input1">
+            </div>
+            
+            <div class="con2">
+            <textarea name="Message" placeholder="Message" required id="message" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" id="btn" class="button" onclick="openPopup()">Send</button>
+            
+
+
+        </form>
+    </div>
+
+    <script>
+        let popup = document.getElementById("popup")
+
+        function openPopup (){
+            popup.classList.add("open-popup");
+        }
+        function closePopup (){
+            popup.classList.remove("open-popup");
+        }
+
+    </script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    var btn = document.getElementById('btn');
+    btn.addEventListener('click', function(e){
+        e.preventDefault()
+        var name = document. getElementById('name').value;
+        var email = document. getElementById('email').value;
+        var subject = document. getElementById('subject').value;
+        var message = document. getElementById('message').value;
+        var number = document. getElementById('number').value;
+        var date = document. getElementById('date').value;
+        var body = 'name: '+name + '<br/> email: ' + email + '<br/> subject: ' +subject + '<br/> number: ' + number + '<br/> date ' + date + '<br/> message: '+ message;
+
+
+
+                    Email.send({
+                SecureToken : "532cfee4-be26-4e0e-ac30-abc5830554f1",
+                To : 'ayodeleoyinkansola268@gmail.com',
+                From : "samuelemmanuel11111@gmail.com",
+                Subject : "contact message",
+                Body: body
+                
+                
+            }).then(
+              message => alert(message)
+              
+
+              
+              
+            );
+            
+        
+                })
+</script>
+                       
+                    </div>
+                     <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="./assets/New folder/pexels-photo-10313387.jpeg" alt="" class="about__img-one">
+                        </div>
+
+                        <div type="submit"  class="about__img-overlay">
+                            <img src="./assets/New folder/pexels-photo-4128416.jpeg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--==================== CONTACT ====================-->
+            <!-- <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Reach out to us today <br> via any of the given <br> information
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Call us for instant support</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +234 9114399840
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                     whoofcare235@email.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Subject</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Send Message
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section> -->
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> WhoofCare
+                    </a>
+
+                    <h3 class="footer__title">
+                        Subscribe to our newsletter <br> to stay updated
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Subscribe
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">13, Anifowose Street</li>
+                        <li class="footer__information">Lakowe</li>
+                        <li class="footer__information">Lagos</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+234 9114399840</li>
+                        
+                        <div class="footer__social">
+                            <a href="" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+          
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
